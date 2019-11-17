@@ -1,0 +1,83 @@
+/* Colors variables */
+$light-bg-clock : #0ac3a7;
+$dark-bg-clock : #078975;
+$header-color-clock : #fffdd8;
+$bg-color : #282c34;
+$bg-color-light : lighten(#282c34, 15%);
+$white-color : #ffffff;
+$blue-color : #337ab7;
+$turquoise-color : #5bc0de;
+$green-color : #5cb85c;
+$yellow-color : #f0ad4e;
+$pink-color : #E341AB;
+$purple-color : #8641E3;
+$red-color : #a70f26;
+
+.App {
+  min-width: 576px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: .12em;
+  padding: 1em 0em 1em 0em;
+  text-transform: uppercase;
+  text-align: center;
+  background: $light-bg-clock;
+  border-bottom: .3em solid $dark-bg-clock;
+  color: $header-color-clock;
+  text-shadow: 0 0 0.25em rgba(21,16,0,.1);
+  min-width: 100%;
+}
+
+.App-body {
+  padding: 20px 0px 10px 10px;
+  background-color: $bg-color;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-width: 100%;
+  min-height: 10em;
+}
+
+.color-blanc {
+  color: $white-color !important;
+}
+
+.color-bleu {
+  color: $blue-color !important;
+}
+
+.color-turquoise {
+ color: $turquoise-color !important;
+}
+
+.color-vert {
+  color: $green-color !important;
+}
+
+.color-jaune {
+   color: $yellow-color !important;
+}
+
+.color-rose {
+    color: $pink-color !important;
+}
+
+.color-violet {
+   color: $purple-color !important;
+}
+
+.color-rouge {
+   color: $red-color !important;
+}
+
+#colorSelect {
+    background-color: $bg-color-light;
+    color: $white-color;
+}

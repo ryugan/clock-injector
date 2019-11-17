@@ -1,9 +1,22 @@
 {
-    "name": "My Extension",
-    "version": "1.0",
     "manifest_version": 2,
+    "name": "Clock injector",
+    "description": "Extension for Inject DOM in cockpit",
+    "version": "0.0.1",
     "browser_action": {
+        "default_icon": "clock-512.png",
         "default_popup": "index.html"
     },
+    "icons": {
+      "16": "clock-16.png",
+      "48": "clock-48.png",
+      "128": "clock-128.png",
+      "512": "clock-512.png"
+    },
+    "permissions": [
+      "tabs",
+      "http://*/",
+      "https://*/"
+    ],
     "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }
